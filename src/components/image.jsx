@@ -1,7 +1,8 @@
 import * as React from 'react';
 
 import Modal from '@mui/material/Modal';
-
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 import SliderImage from './SliderImage';
 
 export const Image = ({
@@ -36,6 +37,14 @@ export const Image = ({
         aria-describedby="modal-modal-description"
         style={{ paddingTop: '35px' }}
       >
+        {/* <IconButton
+          edge="start"
+          color="inherit"
+          onClick={handleClose}
+          aria-label="close"
+        >
+          <CloseIcon />
+        </IconButton> */}
         <SliderImage />
       </Modal>
     </React.Fragment>

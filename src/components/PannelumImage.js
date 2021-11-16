@@ -1,16 +1,22 @@
 import React from 'react';
 import { Pannellum } from 'pannellum-react';
-const PannellumImage = () => {
+const PannellumImage = ({
+  path,
+  hfov,
+  pitchInfo,
+  yawInfo,
+  info,
+}) => {
   let height = (window.innerHeight * 85) / 100;
   let width = (window.innerWidth * 70) / 100;
   return (
     <Pannellum
       // width={width}
       height={height}
-      image="img/360/coloa1.jpg"
+      image={path}
       pitch={5}
       yaw={0}
-      hfov={130}
+      hfov={hfov}
       autoLoad
       author=""
       title=""
@@ -28,16 +34,9 @@ const PannellumImage = () => {
     >
       <Pannellum.Hotspot
         type="info"
-        pitch={11}
-        yaw={-167}
-        text="Info Hotspot Text 3"
-        URL="https://github.com/farminf"
-      />
-      <Pannellum.Hotspot
-        type="info"
-        pitch={11}
-        yaw={-107}
-        text="Info Hotspot Text 4"
+        pitch={pitchInfo}
+        yaw={yawInfo}
+        text={info}
         URL="https://github.com/farminf"
       />
       {/* <Pannellum.Hotspot

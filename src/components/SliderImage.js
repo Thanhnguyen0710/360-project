@@ -27,25 +27,56 @@ const SliderImage = () => {
     return [
       <picture>
         <source
-          data-srcset="https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg"
+          data-srcset="img/360/coloa1.jpg"
           type="image/jpg"
         />
         <img
           key="01"
-          src="https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg"
-          alt="First Thumbnail"
+          src="img/360/coloa1.jpg"
           height="70"
         />
       </picture>,
       <picture>
         <source
-          data-srcset="https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg"
+          data-srcset="img/360/coloa2.jpg"
           type="image/jpg"
         />
         <img
           key="02"
-          src="https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg"
-          alt="Second Thumbnail"
+          src="img/360/coloa2.jpg"
+          height="70"
+        />
+      </picture>,
+      <picture>
+        <source
+          data-srcset="img/360/AmThoMyChau1.jpg"
+          type="image/jpg"
+        />
+        <img
+          key="03"
+          src="img/360/AmThoMyChau1.jpg"
+          height="70"
+        />
+      </picture>,
+      <picture>
+        <source
+          data-srcset="img/360/AmThoMyChau2.jpg"
+          type="image/jpg"
+        />
+        <img
+          key="04"
+          src="img/360/AmThoMyChau2.jpg"
+          height="70"
+        />
+      </picture>,
+      <picture>
+        <source
+          data-srcset="img/360/AmThoMyChau3.jpg"
+          type="image/jpg"
+        />
+        <img
+          key="05"
+          src="img/360/AmThoMyChau3.jpg"
           height="70"
         />
       </picture>,
@@ -58,10 +89,49 @@ const SliderImage = () => {
       renderThumbs={renderCustomThumbs}
     >
       <div>
-        <PannellumImage />
+        <PannellumImage
+          path="img/360/coloa1.jpg"
+          hfov={130}
+          pitchInfo={10}
+          yawInfo={10}
+          info="Something"
+        />
       </div>
       <div>
-        <PannellumImage />
+        <PannellumImage
+          path="img/360/coloa2.jpg"
+          hfov={130}
+          pitchInfo={10}
+          yawInfo={10}
+          info="Something"
+        />
+      </div>
+      <div>
+        <PannellumImage
+          path="img/360/AmThoMyChau1.jpg"
+          hfov={130}
+          pitchInfo={10}
+          yawInfo={10}
+          info="Something"
+        />
+      </div>
+      <div>
+        <PannellumImage
+          path="img/360/AmThoMyChau2.jpg"
+          hfov={130}
+          pitchInfo={10}
+          yawInfo={10}
+          info="Something"
+        />
+      </div>
+      <div>
+        <PannellumImage
+          path="img/360/AmThoMyChau3.jpg"
+          hfov={130}
+          pitchInfo={10}
+          yawInfo={10}
+          info="Something"
+        />
       </div>
     </Carousel>
     // </Container>
