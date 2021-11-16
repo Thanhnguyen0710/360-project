@@ -1,23 +1,43 @@
-export const Image = ({ title, largeImage, smallImage }) => {
+import * as React from 'react';
+
+import Modal from '@mui/material/Modal';
+
+import SliderImage from './SliderImage';
+
+export const Image = ({
+  title,
+  largeImage,
+  smallImage,
+}) => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => setOpen(false);
   return (
-    <div className='portfolio-item'>
-      <div className='hover-bg'>
-        {' '}
-        <a
-          href={largeImage}
-          title={title}
-          data-lightbox-gallery='gallery1'
-        >
-          <div className='hover-text'>
-            <h4>{title}</h4>
+    <React.Fragment>
+      <div className="portfolio-item">
+        <div className="hover-bg">
+          {' '}
+          <div className="hover-text">
+            <h4 onClick={handleOpen}>{title}</h4>
           </div>
           <img
             src={smallImage}
-            className='img-responsive'
+            className="img-responsive"
             alt={title}
           />{' '}
-        </a>{' '}
+        </div>
       </div>
-    </div>
-  )
-}
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+        style={{ paddingTop: '35px' }}
+      >
+        <SliderImage />
+      </Modal>
+    </React.Fragment>
+  );
+};
