@@ -1,9 +1,16 @@
 import * as React from 'react';
 
 import Modal from '@mui/material/Modal';
-import IconButton from '@mui/material/IconButton';
+
+import { ModalBody } from 'react-bootstrap';
+import { IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import SliderImage from './SliderImage';
+
+import { styled } from '@mui/material/styles';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
 
 export const Image = ({
   title,
@@ -30,23 +37,34 @@ export const Image = ({
           />{' '}
         </div>
       </div>
-      <Modal
-        open={open}
+      <Dialog
         onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-        style={{ paddingTop: '35px' }}
+        aria-labelledby="customized-dialog-title"
+        open={open}
+        maxWidth
       >
-        {/* <IconButton
-          edge="start"
-          color="inherit"
-          onClick={handleClose}
-          aria-label="close"
-        >
-          <CloseIcon />
-        </IconButton> */}
-        <SliderImage />
-      </Modal>
+        <DialogTitle>
+          <IconButton
+            aria-label="close"
+            onClick={handleClose}
+            sx={{
+              position: 'absolute',
+              right: 8,
+              top: 8,
+              color: 'primary',
+            }}
+          >
+            <CloseIcon />
+          </IconButton>
+        </DialogTitle>
+        <DialogContent>
+          <img
+            src={largeImage}
+            className="img-responsive"
+            alt={title}
+          />{' '}
+        </DialogContent>
+      </Dialog>
     </React.Fragment>
   );
 };

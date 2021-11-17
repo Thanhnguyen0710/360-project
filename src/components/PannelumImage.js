@@ -2,10 +2,10 @@ import React from 'react';
 import { Pannellum } from 'pannellum-react';
 const PannellumImage = ({
   path,
-  // hfov,
-  // pitchInfo,
-  // yawInfo,
-  // info,
+  hfov,
+  pitchInfo,
+  yawInfo,
+  info,
 }) => {
   let height = (window.innerHeight * 85) / 100;
   let width = (window.innerWidth * 70) / 100;

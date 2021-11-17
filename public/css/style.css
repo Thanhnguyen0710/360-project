@@ -295,7 +295,7 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#structure h2::after {
+#structure .header h2::after {
   position: absolute;
   content: '';
   background: linear-gradient(
@@ -307,6 +307,22 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#structure .about-text h2::after {
+  position: absolute;
+  content: '';
+  background: linear-gradient(
+    to right,
+    #5ca9fb 0%,
+    #6372ff 100%
+  );
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+#structure .about-text {
+  font-family: Arial, Helvetica, sans-serif;
 }
 #structure .about-text li {
   margin-bottom: 6px;
@@ -322,6 +338,9 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+.detail {
+  font-family: Arial, Helvetica, sans-serif;
+}
 #structure img {
   width: 520px;
   margin-top: 10px;
@@ -334,7 +353,7 @@ header .intro-text {
   margin: 30px 0;
 }
 /* Services Section */
-#services {
+#tour {
   padding: 100px 0;
   background: linear-gradient(
     to right,
@@ -343,13 +362,13 @@ header .intro-text {
   );
   color: #fff;
 }
-#services .service-desc {
+#tour .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#tour h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#tour .section-title h2::after {
   position: absolute;
   content: '';
   background: rgba(255, 255, 255, 0.3);
@@ -359,7 +378,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#tour i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -373,19 +392,19 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#tour h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#tour p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+#tour .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
-#portfolio {
+#gallery {
   padding: 100px 0;
 }
 .portfolio-item {

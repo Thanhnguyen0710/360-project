@@ -20,67 +20,67 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa1.jpg",
+      "smallImage": "img/portfolio/coloa1.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa2.jpg",
+      "smallImage": "img/portfolio/coloa2.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa3.jpg",
+      "smallImage": "img/portfolio/coloa3-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa4.jpg",
+      "smallImage": "img/portfolio/coloa4.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa6.jpg",
+      "smallImage": "img/portfolio/coloa6.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa7.jpg",
+      "smallImage": "img/portfolio/coloa7-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa9.jpg",
+      "smallImage": "img/portfolio/coloa9.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa8.jpg",
+      "smallImage": "img/portfolio/coloa8.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Cổ Loa",
+      "largeImage": "img/portfolio/coloa10.jpg",
+      "smallImage": "img/portfolio/coloa10.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "image": "img/tour/DenthoCaoLo.jpg" ,
+      "image": "img/tour/DenthoCaoLo.jpg",
       "name": "Đền thờ Cao Lỗ",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "image": "img/tour/DenthoAnDuongVuong.jpg" ,
+      "image": "img/tour/DenthoAnDuongVuong.jpg",
       "name": "Đền thờ An Dương Vương",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cloud-download",
-      "image": "img/tour/BaotangCoLoa.jpg" ,
+      "image": "img/tour/BaotangCoLoa.jpg",
       "name": "Bảo tàng Cổ Loa",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
@@ -91,7 +91,7 @@
     },
     {
       "icon": "fa fa-plane",
-      "image": "img/tour/AmthoMyChau.jpg" ,
+      "image": "img/tour/AmthoMyChau.jpg",
       "name": "Am thờ Mị Châu",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },

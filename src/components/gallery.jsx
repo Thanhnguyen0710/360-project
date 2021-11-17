@@ -2,17 +2,14 @@ import { Image } from './image';
 
 export const Gallery = (props) => {
   return (
-    <div id="portfolio" className="text-center">
+    <div id="gallery" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit duis sed dapibus leonec.
-          </p>
+          <h2>THƯ VIỆN ẢNH</h2>
+          <p>Tổng hợp một số hình ảnh của Thành Cổ Loa.</p>
         </div>
         <div className="row">
-          <div className="portfolio-items">
+          <div className="portfolio-item">
             {props.data
               ? props.data.map((d, i) => (
                   <div
