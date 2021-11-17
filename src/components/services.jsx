@@ -18,45 +18,44 @@ export const Services = (props) => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p> */}
-        </div>
-        <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-md-4"
-                >
-                  {' '}
-                  {/* <i className={d.icon}></i> */}
-                  {d.image && (
-                    <img
-                      src={d.image}
-                      style={{
-                        width: '320px',
-                        height: '150px',
-                        borderRadius: '20px',
-                        cursor: 'pointer',
-                      }}
-                      onClick={handleOpen}
-                    />
-                  )}
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-
-                    <Modal
-                      open={open}
-                      onClose={handleClose}
-                      aria-labelledby="modal-modal-title"
-                      aria-describedby="modal-modal-description"
-                      style={{ paddingTop: '35px' }}
-                    >
-                      <SliderImage />
-                    </Modal>
-                    {/* <p>{d.text}</p> */}
+          <div className="row">
+            {props.data
+              ? props.data.map((d, i) => (
+                  <div
+                    key={`${d.name}-${i}`}
+                    className="col-sm-4"
+                  >
+                    {' '}
+                    {/* <i className={d.icon}></i> */}
+                    {d.image && (
+                      <img
+                        src={d.image}
+                        style={{
+                          width: '320px',
+                          height: '150px',
+                          borderRadius: '20px',
+                          cursor: 'pointer',
+                        }}
+                        onClick={handleOpen}
+                      />
+                    )}
+                    <div className="service-desc">
+                      <h3>{d.name}</h3>
+                      <Modal
+                        open={open}
+                        onClose={handleClose}
+                        aria-labelledby="modal-modal-title"
+                        aria-describedby="modal-modal-description"
+                        style={{ paddingTop: '35px' }}
+                      >
+                        <SliderImage />
+                      </Modal>
+                      {/* <p>{d.text}</p> */}
+                    </div>
                   </div>
-                </div>
-              ))
-            : 'loading'}
+                ))
+              : 'loading'}
+          </div>
         </div>
       </div>
     </div>
