@@ -70,18 +70,21 @@
       "icon": "fa fa-wordpress",
       "image": "img/tour/DenthoCaoLo.jpg",
       "name": "Đền thờ Cao Lỗ",
+      "link": "denthocaolo",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "image": "img/tour/DenthoAnDuongVuong.jpg",
       "name": "Đền thờ An Dương Vương",
+      "link": "denthoanduongvuong",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cloud-download",
       "image": "img/tour/BaotangCoLoa.jpg",
       "name": "Bảo tàng Cổ Loa",
+      "link": "baotangcoloa",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
@@ -93,6 +96,7 @@
       "icon": "fa fa-plane",
       "image": "img/tour/AmthoMyChau.jpg",
       "name": "Am thờ Mị Châu",
+      "link": "denthomichau",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {

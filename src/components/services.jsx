@@ -1,14 +1,4 @@
-import * as React from 'react';
-import Modal from '@mui/material/Modal';
-import SliderImage from './SliderImage';
-import PannellumImage from './PannelumImage';
-
 export const Services = (props) => {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => setOpen(false);
   return (
     <div id="tour" className="text-center">
       <div className="container">
@@ -27,21 +17,14 @@ export const Services = (props) => {
                   >
                     {' '}
                     {/* <i className={d.icon}></i> */}
-                    {d.image && (
-                      <img
-                        src={d.image}
-                        style={{
-                          width: '320px',
-                          height: '150px',
-                          borderRadius: '20px',
-                          cursor: 'pointer',
-                        }}
-                        onClick={handleOpen}
-                      />
+                    {d.image && d.link &&  (
+                      <a href={d.link}>
+                        <img src={d.image} style={{ width: '320px', height: '150px', borderRadius: '20px',}} />
+                      </a>
                     )}
                     <div className="service-desc">
                       <h3>{d.name}</h3>
-                      <Modal
+                      {/* <Modal
                         open={open}
                         onClose={handleClose}
                         aria-labelledby="modal-modal-title"
@@ -49,7 +32,7 @@ export const Services = (props) => {
                         style={{ paddingTop: '35px' }}
                       >
                         <SliderImage />
-                      </Modal>
+                      </Modal> */}
                       {/* <p>{d.text}</p> */}
                     </div>
                   </div>
