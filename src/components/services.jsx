@@ -58,6 +58,9 @@ export const Services = (props) => {
           </div>
         </div>
       </div>
+      <div>
+        <button color="primary" size="lg" onClick={() => window.location.href="app-files/tour.html"}>Scan Asset</button>
+      </div>
     </div>
   );
 };
