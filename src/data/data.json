@@ -3,7 +3,7 @@
     "title": "Di tích lịch sử Thành Cổ Loa",
     "paragraph": ""
   },
-  "About": {
+  "GioiThieu": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Why": [
       "Lorem ipsum dolor",
@@ -18,7 +18,7 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
+  "ThuVienAnh": [
     {
       "title": "Cổ Loa",
       "largeImage": "img/portfolio/coloa1.jpg",
@@ -65,40 +65,36 @@
       "smallImage": "img/portfolio/coloa10.jpg"
     }
   ],
-  "Services": [
+  "Tour": [
     {
       "icon": "fa fa-wordpress",
       "image": "img/tour/DenthoCaoLo.jpg",
       "name": "Đền thờ Cao Lỗ",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "linkTour":"app-files/tour.html"
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "image": "img/tour/DenthoAnDuongVuong.jpg",
       "name": "Đền thờ An Dương Vương",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "linkTour":"app-files/tour.html"
     },
     {
       "icon": "fa fa-cloud-download",
       "image": "img/tour/BaotangCoLoa.jpg",
       "name": "Bảo tàng Cổ Loa",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "linkTour":"app-files/tour.html"
     },
     {
       "icon": "",
+      "image": "",
       "name": "",
-      "text": ""
+      "linkTour":""
     },
     {
       "icon": "fa fa-plane",
       "image": "img/tour/AmthoMyChau.jpg",
       "name": "Am thờ Mị Châu",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "",
-      "name": "",
-      "text": ""
+      "linkTour":"app-files/tour.html"
     }
   ],
   "Testimonials": [
@@ -155,7 +151,7 @@
       "job": "Project Manager"
     }
   ],
-  "Contact": {
+  "Footer": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
@@ -163,7 +159,7 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "KienTruc": [
     {
       "icon": "fa fa-comments-o",
       "title": "Lorem ipsum",

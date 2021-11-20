@@ -362,6 +362,10 @@ header .intro-text {
   );
   color: #fff;
 }
+#tour button {
+  background-color: transparent;
+  border: none;
+}
 #tour .service-desc {
   margin: 10px 10px 20px;
 }
