@@ -88,21 +88,11 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "",
-      "name": "",
-      "text": ""
-    },
-    {
       "icon": "fa fa-plane",
       "image": "img/tour/AmthoMyChau.jpg",
       "name": "Am thờ Mị Châu",
       "link": "denthomichau",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "",
-      "name": "",
-      "text": ""
     }
   ],
   "Testimonials": [
