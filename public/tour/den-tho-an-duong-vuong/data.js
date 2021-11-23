@@ -24,9 +24,9 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.011285077142146,
+        "pitch": -0.07917044253487937,
+        "fov": 1.3274289077235746
       },
       "linkHotspots": [
         {
@@ -62,8 +62,8 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.7365727484583218,
-        "pitch": 0.007398634932460624,
+        "yaw": -0.4873131438517788,
+        "pitch": -0.10697513739471276,
         "fov": 1.3274289077235746
       },
       "linkHotspots": [
@@ -114,9 +114,9 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.1549429150639785,
+        "pitch": -0.03498494781828221,
+        "fov": 1.3274289077235746
       },
       "linkHotspots": [
         {
@@ -232,7 +232,7 @@ var APP_DATA = {
         {
           "yaw": 0.6741316330489866,
           "pitch": -0.060366303565210444,
-          "title": "Nhà Bia",
+          "title": "Bia Cổ",
           "text": "Đây là nơi lưu giữ các bia đá cổ, trong đó có ba bia được khắc năm 1606.",
           "popup": "tiles/pop-up/Nha-Bia.png"
         }
@@ -306,9 +306,9 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -3.1123736742974337,
+        "pitch": -0.007496774532487649,
+        "fov": 1.3274289077235746
       },
       "linkHotspots": [
         {
