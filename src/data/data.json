@@ -70,19 +70,19 @@
       "icon": "fa fa-wordpress",
       "image": "img/tour/DenthoCaoLo.jpg",
       "name": "Đền thờ Cao Lỗ",
-      "linkTour":"app-files/tour.html"
+      "linkTour":""
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "image": "img/tour/DenthoAnDuongVuong.jpg",
       "name": "Đền thờ An Dương Vương",
-      "linkTour":"app-files/tour.html"
+      "linkTour":"tour/den-tho-an-duong-vuong/index.html"
     },
     {
       "icon": "fa fa-cloud-download",
       "image": "img/tour/BaotangCoLoa.jpg",
       "name": "Bảo tàng Cổ Loa",
-      "linkTour":"app-files/tour.html"
+      "linkTour":""
     },
     {
       "icon": "",
@@ -94,7 +94,7 @@
       "icon": "fa fa-plane",
       "image": "img/tour/AmthoMyChau.jpg",
       "name": "Am thờ Mị Châu",
-      "linkTour":"app-files/tour.html"
+      "linkTour":""
     }
   ],
   "Testimonials": [

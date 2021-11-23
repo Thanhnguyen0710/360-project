@@ -28,6 +28,7 @@ export const Tour = (props) => {
                           borderRadius: '20px',
                           cursor: 'pointer',
                         }}
+                        onClick={() => window.location.href=d.linkTour}
                       />
                     )}
                     <div className="service-desc">
