@@ -529,7 +529,7 @@ export const About = (props) => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row row-rever">
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h3>

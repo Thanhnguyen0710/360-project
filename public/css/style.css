@@ -661,3 +661,16 @@ label {
     margin: 50px 0;
   }
 }
+
+
+.row-rever {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 991px) {
+  .row-rever {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
