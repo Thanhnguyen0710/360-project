@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Đền thờ An Dương Vương</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-khu-di-tch-c-loa">
+        <li class="text">Khu Di Tích Cổ Loa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-cng-n-th-an-dng-vng">
+        <li class="text">Cổng Đền Thờ An Dương Vương</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-tam-quan">
+        <li class="text">Tam Quan</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-miu-th-thn-nng">
+        <li class="text">Miếu Thờ Thần Nông</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-nh-bia">
+        <li class="text">Nhà Bia</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-nh-tin-ng">
+        <li class="text">Nhà Tiền Đường</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-thng-in">
+        <li class="text">Thượng Điện</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-dy-phi-thng-in">
+        <li class="text">Dãy Phải Thượng Điện</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-ca-thng-in">
+        <li class="text">Cửa Thượng Điện</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>  
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
