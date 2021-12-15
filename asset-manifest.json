@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/360-project/static/css/main.7c90efc5.chunk.css",
+    "main.js": "/360-project/static/js/main.d8da6323.chunk.js",
+    "main.js.map": "/360-project/static/js/main.d8da6323.chunk.js.map",
+    "runtime-main.js": "/360-project/static/js/runtime-main.b3d13a99.js",
+    "runtime-main.js.map": "/360-project/static/js/runtime-main.b3d13a99.js.map",
+    "static/css/2.4f2b770a.chunk.css": "/360-project/static/css/2.4f2b770a.chunk.css",
+    "static/js/2.49f5fa94.chunk.js": "/360-project/static/js/2.49f5fa94.chunk.js",
+    "static/js/2.49f5fa94.chunk.js.map": "/360-project/static/js/2.49f5fa94.chunk.js.map",
+    "index.html": "/360-project/index.html",
+    "static/css/2.4f2b770a.chunk.css.map": "/360-project/static/css/2.4f2b770a.chunk.css.map",
+    "static/css/main.7c90efc5.chunk.css.map": "/360-project/static/css/main.7c90efc5.chunk.css.map",
+    "static/js/2.49f5fa94.chunk.js.LICENSE.txt": "/360-project/static/js/2.49f5fa94.chunk.js.LICENSE.txt",
+    "static/media/pannellum.css": "/360-project/static/media/sprites.c08944fe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3d13a99.js",
+    "static/css/2.4f2b770a.chunk.css",
+    "static/js/2.49f5fa94.chunk.js",
+    "static/css/main.7c90efc5.chunk.css",
+    "static/js/main.d8da6323.chunk.js"
+  ]
+}
