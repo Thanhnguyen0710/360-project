@@ -354,7 +354,8 @@ header .intro-text {
 }
 /* Services Section */
 #tour {
-  padding: 100px 0;
+  padding-top: 100px;
+  /* padding-bottom: 50px; */
   background: linear-gradient(
     to right,
     #6372ff 0%,
@@ -670,6 +671,10 @@ label {
 .row-rever {
   display: flex;
   flex-direction: row;
+}
+
+.container-tour {
+  margin-top: 70px;
 }
 
 @media (max-width: 992px) {

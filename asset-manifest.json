@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/360-project/static/css/main.7c90efc5.chunk.css",
-    "main.js": "/360-project/static/js/main.d8da6323.chunk.js",
-    "main.js.map": "/360-project/static/js/main.d8da6323.chunk.js.map",
+    "main.js": "/360-project/static/js/main.82d7e1f5.chunk.js",
+    "main.js.map": "/360-project/static/js/main.82d7e1f5.chunk.js.map",
     "runtime-main.js": "/360-project/static/js/runtime-main.b3d13a99.js",
     "runtime-main.js.map": "/360-project/static/js/runtime-main.b3d13a99.js.map",
     "static/css/2.4f2b770a.chunk.css": "/360-project/static/css/2.4f2b770a.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.4f2b770a.chunk.css",
     "static/js/2.49f5fa94.chunk.js",
     "static/css/main.7c90efc5.chunk.css",
-    "static/js/main.d8da6323.chunk.js"
+    "static/js/main.82d7e1f5.chunk.js"
   ]
 }
