@@ -662,7 +662,7 @@ label {
   }
 }
 
-.row {
+.row-class {
   display: flex;
   flex-direction: row;
 }
@@ -673,7 +673,7 @@ label {
 }
 
 @media (max-width: 992px) {
-  .row {
+  .row-class {
     display: flex;
     flex-direction: column;
   }
